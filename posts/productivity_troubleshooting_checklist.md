@@ -16,3 +16,5 @@ Have you...
 - [ ] Cleaned your workspace and chair in the last week
 - [ ] Emptied the trash can in the last week
 - [ ] Vented into a diary or screamed into a pillow since you last felt An Emotion
+
+<script src="../assets/js/clickable_checkboxes.js"></script>
