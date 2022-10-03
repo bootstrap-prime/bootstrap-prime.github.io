@@ -4,7 +4,8 @@
 
 ### Windows
 
-Follow install instructions for [openssh-sk-winhello](https://github.com/tavrez/openssh-sk-winhello) Ensure ssh-agent is [started on git-bash boot automatically](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/working-with-ssh-key-passphrases#auto-launching-ssh-agent-on-git-for-windows)
+Follow install instructions for [openssh-sk-winhello](https://github.com/tavrez/openssh-sk-winhello).
+Ensure ssh-agent is [started on git-bash boot automatically](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/working-with-ssh-key-passphrases#auto-launching-ssh-agent-on-git-for-windows).
 
 Add this to your bashrc file:
 
@@ -44,7 +45,9 @@ PINs, despite the name "personal identification _number_", do not consist solely
 
     Verify-required is a user verification check. This will password lock your ssh key. verify-required is NOT a user presence check, which just has you tap the blinking circle on your authenticator. Even if you don't specify verify-required, you will still be required to tap that blinking light. Support for verify-required was recently added, so if you get an error like 
     > sign~andsendpubkey~: signing failed for ED25519-SK "" from agent: agent refused operation
+    
     or
+    
     > FIDO verify-required key is not currently supported by ssh-agent
     just update to the latest version of openssh. 
 
